@@ -12,8 +12,9 @@ describe('Framework', function() {
 
     it('RUNNING', function(done) {
         superagent.get(siteUrl).end(function(err, res) {
+            $ = cheerio.load(res.text);
             assert.equal(res.status, 200);
-            assert.deepEqual('Lub Dub\n', res.text);
+            assert.deepEqual('Lub Dub', $('h1').text());
             done();
         });
     });  
