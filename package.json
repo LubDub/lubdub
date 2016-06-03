@@ -25,6 +25,6 @@
     "http-status": "^0",
     "jshint": "^2",
     "mocha": "^2",
-    "superagent": "^1"
+    "superagent": "^2"
   }  
 }
