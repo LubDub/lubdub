@@ -1,17 +1,17 @@
 {
   "name": "lubdub",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lub Dub Framework Project",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/LubDub/lubdub"
-  },  
+  },
   "scripts": {
     "start": "node index.js",
     "pretest": "./node_modules/jshint/bin/jshint app",
-    "test": "gulp test",  
-    "build": "gulp test" 
+    "test": "gulp test",
+    "build": "gulp test"
   },
   "dependencies": {
     "express": "^4.5"
@@ -26,5 +26,5 @@
     "jshint": "^2",
     "mocha": "^2",
     "superagent": "^2"
-  }  
+  }
 }
