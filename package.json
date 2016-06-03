@@ -1,0 +1,30 @@
+{
+  "name": "lubdub",
+  "version": "0.0.1",
+  "description": "Lub Dub Framework Project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/lubdub/lubdub.git"
+  },  
+  "scripts": {
+    "start": "node index.js",
+    "pretest": "./node_modules/jshint/bin/jshint app",
+    "test": "gulp test"    
+  },
+  "dependencies": {
+    "cors": "^2",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "chai": "^3",
+    "cheerio": "^0",
+    "gulp": "^3",
+    "gulp-mocha": "^2",
+    "gulp-nodemon": "^2",
+    "http-status": "^0",
+    "jshint": "^2",
+    "mocha": "^2",
+    "superagent": "^1"
+  }  
+}
