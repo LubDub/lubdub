@@ -6,4 +6,4 @@ pipelines:
         script:
           - npm --version
           - npm install
-          - gulp build
+          - npm run build
