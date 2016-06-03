@@ -22,3 +22,4 @@ gulp.task("mocha", function () {
 });
 
 gulp.task("test", ["app","mocha"]);
+gulp.task("build", ["app","mocha"]);
